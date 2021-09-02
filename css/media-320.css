@@ -1,0 +1,334 @@
+@media (max-width: 609px) {
+  .container {
+    padding: 0px 15px;
+  }
+
+  .footer__form {
+    min-width: 100%;
+  }
+
+  .form__message {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  .heading {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  /* .header__container {
+    padding-right: 0px;
+  } */
+
+  .logo__img {
+    max-width: 110px;
+  }
+
+  .nav__btn {
+    transform: translate(5px, 2px);
+  }
+
+  /* .section-hero__container {
+    padding-right: 0px;
+  } */
+
+  .section-hero__slide-1 {
+    padding: 62px 21px 58px 24px;
+    background: url('../img/balcony320.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .section-hero__content {
+    text-align: center;
+  }
+
+  .section-hero__heading {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 6px;
+  }
+
+  .section-hero__description {
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-hero__btn {
+    padding: 5px 26px;
+    font-size: 12px;
+  }
+
+  .section-description {
+    padding-top: 62px;
+  }
+
+  .section-description__heading {
+    margin-bottom: 20px;
+  }
+
+  .section-description__text {
+    min-width: 90%;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .section-description__item-main {
+    min-height: 200px;
+    min-width: 90%;
+    background: url('../img/Rectangle\ 2.png') no-repeat;
+  }
+
+  .section-description__item-background {
+    flex-direction: column;
+    padding: 210px 40px 30px 40px;
+    background-color: var(--border-color);
+  }
+
+  .section-description__item-text {
+    min-width: 290px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--font-color);
+  }
+
+  .section-description__more {
+    padding: 11px 41px;
+    margin-right: 128px;
+    font-size: 12px;
+    color: var(--hover-color);
+  }
+
+  .section-description__item {
+    padding: 62px 15px 0px 0px;
+    background-size: 64px 49px;
+    transform: translateY(-30px);
+    background-position: left 0px top 0px;
+    border: var(--border-color);
+  }
+
+  .section-description__item:first-child {
+    padding-top: 62px;
+    background-position: left 0px top 0px;
+    margin-bottom: 32px;
+  }
+
+  .section-description__item-one {
+    background-image: url('../img/Frame321.svg');
+  }
+
+  .section-description__item-two {
+    background-image: url('../img/Frame322.svg');
+  }
+
+  .section-description__small-heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .section-description__item-desc-text {
+    min-width: 290px;
+    font-size: 14px;
+    line-height: 29px;
+  }
+
+  .section-work {
+    padding-top: 5px;
+  }
+
+  /* .section-work__container {
+    padding-right: 0px;
+  } */
+
+  .section-work__heading {
+    margin-bottom: 20px;
+  }
+
+  .section-work__list {
+    margin-bottom: 13px;
+  }
+
+
+  .section-work__item {
+    font-size: 14px;
+  }
+
+  .section-work__item:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .section-work__left {
+    padding-top: 170px;
+    background-size: 290px 160px;
+  }
+
+  .section-work__left-back {
+    margin-bottom: 17px;
+  }
+
+  .section-work__small-heading {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+  .section-work__text {
+    min-width: 90%;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .section-work__btn {
+    padding: 11px 42px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-work__download {
+    min-width: 115px;
+    padding: 12px 32px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-questions {
+    padding-top: 5px;
+    padding-bottom: 62px;
+  }
+
+  .section-questions__heading {
+    margin-bottom: 16px;
+  }
+
+  .section-questions__small-heading {
+    max-width: 233px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .section-questions__list-item {
+    min-width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .spoiler__icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 18px;
+  }
+
+  .spoiler__icon::before {
+    height: 19px;
+    background-color: var(--download-hover-color);
+    transform: translate(15px, 6px);
+  }
+
+  .spoiler__icon::after {
+    width: 19px;
+    transform: translate(6px, 15px);
+  }
+
+  .footer {
+    min-width: 100%;
+    padding-top: 50px;
+  }
+
+  .footer__container {
+    max-height: 633px;
+    padding-left: 10px;
+    /* padding-right: 0; */
+  }
+
+  input[type=text],
+  .form__message {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .footer__form {
+    min-width: 100%;
+    /* padding-top: 50px; */
+    padding-bottom: 52px;
+    /*border-bottom: 1px solid var(--color-grey); */
+  }
+
+  .form {
+    margin-bottom: 0px;
+  }
+
+  .form__message {
+    min-width: 100%;
+    padding-top: 19px;
+    padding-left: 20px;
+    resize: none;
+  }
+
+  input[type=text] {
+    margin-bottom: 25px;
+    padding-top: 6px;
+    padding-left: 18px;
+  }
+
+  .footer__logo-img {
+    width: 131px;
+    /* margin-left: 10px; */
+    margin-bottom: 15px;
+  }
+
+  .footer__agreement {
+    padding-left: 7px;
+    /* margin-top: 0px; */
+    flex-wrap: wrap;
+    text-align: center;
+    transform: translateY(20px);
+  }
+
+  .footer__form-btn {
+    margin-left: 49px;
+    /* margin-top: 0px; */
+    margin-right: 0;
+    padding: 7px 26px;
+    font-size: 12px;
+  }
+
+  .form__label {
+    margin-top: 18px;
+    /* padding-bottom: 16px;
+    border-bottom: 1px solid var(--color-grey); */
+  }
+
+  .footer__left {
+    min-width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    /* padding-left: 75px; */
+    /* padding-bottom: 0px; */
+    border-top: 1px solid var(--color-grey);
+  }
+
+  .footer__social-list {
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .footer__social-icon {
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+
+
+  .footer__social-list-item:not(:last-child) {
+    margin-right: -5px;
+  }
+
+}

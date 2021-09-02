@@ -1,0 +1,238 @@
+@media (max-width: 1585px) {
+  .footer__right-text {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section-description__item-main {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .list__item {
+    max-width: 100%;
+  }
+
+  .section-work__right {
+    padding-left: 700px;
+  }
+
+  .footer__left {
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .container {
+    padding: 0px 50px;
+  }
+
+  .burger {
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    height: 23px;
+    background-color: var(--main-background-color);
+    border: var(--border-color);
+  }
+
+  .burger__line {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--font-color);
+  }
+
+  .burger__line:first-child {
+    top: 0;
+    left: 0;
+  }
+
+  .burger__line:nth-child(2) {
+    top: 45%;
+    left: 0;
+  }
+
+  .burger__line:last-child {
+    bottom: 0;
+    left: 0;
+  }
+
+  .logo__img {
+    width: 150px;
+  }
+
+
+  .nav__list {
+    /* display: none; */
+    flex-direction: column;
+    position: absolute;
+    left: -100vw;
+    padding: 50px;
+    top: 0;
+    z-index: 100;
+    background-color: var(--main-background-color);
+  }
+
+  /* .section-hero {
+    height: 670px;
+  } */
+
+  .section-hero__slide-1 {
+    max-width: 924px;
+    max-height: 668px;
+    padding-top: 164px;
+    padding-bottom: 160px;
+    padding-left: 77px;
+    background-image: url('../img/low-angle-photo-of-balconies-2462015\ 1\ \(1\).jpg');
+  }
+
+  .section-hero__heading {
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 13px;
+  }
+
+  .section-hero__description {
+    max-width: 660px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 60px;
+  }
+
+  .section-description {
+    padding-top: 84px;
+  }
+
+  .section-description__heading {
+    margin-bottom: 8px;
+  }
+
+  .section-description__text {
+    line-height: 32px;
+    margin-bottom: 60px;
+  }
+
+  .section-description__item-main {
+    min-height: 640px;
+    margin-bottom: 32px;
+  }
+
+  .section-description__item-background {
+    width: 100%;
+    padding-right: 53px;
+  }
+
+  .section-description__item-text {
+    max-width: 55%;
+  }
+
+  .list__item {
+    width: 100%;
+  }
+
+  .section-description__item {
+    background-position: left 76px top 63px;
+    padding-left: 315px;
+    padding-bottom: 66px;
+  }
+
+  .section-description__item:first-child {
+    background-position: left 76px top 64px;
+  }
+
+  .section-description__small-heading {
+    margin-bottom: 8px;
+  }
+
+  .section-description__item-desc-text {
+    max-width: 450px;
+  }
+
+  .section-work {
+    padding-top: 62px;
+  }
+
+  .section-work__list {
+    margin-bottom: 43px;
+  }
+
+  .section-work__text {
+    max-width: 437px;
+  }
+
+  .section-work__left {
+    /* padding-right: 487px; */
+    padding-bottom: 17px;
+    /* background: url('../img/Rectangle\ 18.jpg') no-repeat;
+    background-position: right center;
+    background-size: 437px 683px; */
+  }
+
+  .section-work__left-back {
+    margin-bottom: 23px;
+  }
+
+  .section-work__right {
+    max-width: 40%;
+    padding-left: 430px;
+    background: url('../img/Rectangle\ 18.jpg') no-repeat;
+    background-position: right center;
+    background-size: 437px 683px;
+  }
+
+  .section-questions {
+    padding-top: 27px;
+    padding-bottom: 80px;
+  }
+
+  .section-questions__heading {
+    margin-bottom: 30px;
+  }
+
+  .section-questions__list {
+    max-width: 925px;
+  }
+
+  .section-questions__list-item:nth-child(2n) {
+    padding: 25px 0px 30px 0px;
+  }
+
+  .section-questions__small-heading {
+    max-width: 756px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .spoiler__icon {
+    flex-shrink: 0;
+  }
+
+  .spoiler__icon-down {
+    transform: translateY(20px);
+  }
+
+  .footer__container {
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+
+  .footer__left {
+    min-width: 260px;
+    margin-right: 119px;
+  }
+
+  .form__message {
+    min-width: 545px;
+  }
+
+  .footer__form-btn {
+    padding: 17px 35px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+
+

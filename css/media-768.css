@@ -1,0 +1,126 @@
+@media (max-width: 1000px) {
+  .header__container {
+    min-height: 68px;
+  }
+
+  .section-hero__slide-1 {
+    padding-left: 40px;
+    background-image: url('../img/balcony768.jpg');
+  }
+
+  .section-hero__heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .section-hero__description {
+    max-width: 588px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .list__item {
+    min-height: 502px;
+  }
+
+  .section-description__item-main {
+    min-height: 650px;
+    min-width: 100%;
+  }
+
+  .section-description__item-background{
+    padding: 36px 40px 30px 40px;
+  }
+
+  .section-description__item-text {
+    max-width: 366px;
+    margin: 0;
+  }
+
+  .section-description__item {
+    padding: 34px 40px 35px 170px;
+    background-size: 114px 99px;
+    background-position: left 39px top 68px;
+  }
+
+  .section-description__item:first-child {
+    background-position: left 39px top 68px;
+  }
+
+
+  .section-work__heading {
+    margin-bottom: 46px;
+  }
+
+  .section-work__list {
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+
+  .section-work__left {
+    min-width: 100%;
+    padding-top: 320px;
+    padding-right: 0px;
+    background: url('../img/step_1.jpg') no-repeat;
+    /* background-position: top center; */
+    background-size: 668px 284px;
+  }
+
+  .section-work__right {
+    display: none;
+  }
+
+  .section-work__text {
+    min-width: 100%;
+  }
+
+  .section-questions__small-heading {
+    max-width: 570px;
+  }
+
+  .section-questions__list-item:not(:first-child) {
+    padding: 28px 0px 30px 0px;
+  }
+
+  .spoiler__icon {
+    flex-shrink: 0;
+  }
+
+  .spoiler__icon-up {
+    transform: translate(-2px, 15px);
+  }
+
+  .footer {
+    padding-top: 30px;
+  }
+
+  .footer__container {
+    max-height: 772px;
+    padding-left: 45px;
+    flex-direction: column-reverse;
+  }
+
+  .footer__left {
+    padding-left: 5px;
+  }
+
+  .footer__social-list {
+    margin-bottom: 5px;
+  }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__form {
+    min-width: 81%;
+  }
+
+  .form__message {
+    min-width: 100%;
+  }
+
+  .footer__form-btn {
+    margin-right: 23px;
+  }
+}
